@@ -68,6 +68,7 @@ public class mainPanel extends JFrame{
                 for (int i = 0; i < 9; i++) {
                     for (int j = 0; j < 9; j++) {
                         buttons[i][j].setText("");
+                        buttons[i][j].setForeground(new Color(0,0,0));
                         st_map[i][j] = true;
                         mins[i][j] = 0;
                     }
